@@ -10,6 +10,7 @@ public class test {
         list.add("张三");
         list.add("");
         list.add("张三");
+        list.add("李四");
 
     }
 }
