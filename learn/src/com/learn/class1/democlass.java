@@ -12,6 +12,9 @@ public class democlass {
         return name;
     }
 
+    public democlass() {
+    }
+
     public void setAge(int age) {
         this.age = age;
     }
@@ -20,3 +23,4 @@ public class democlass {
         this.name = name;
     }
 }
+
