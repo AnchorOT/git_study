@@ -2,9 +2,10 @@ package com.domain;
 
 import com.exception.AgeOutBoundException;
 
+import java.io.Serializable;
 import java.util.Objects;
 
-public class Student implements Comparable<Student>{
+public class Student implements Comparable<Student> , Serializable {
     public String getName() {
         return name;
     }
