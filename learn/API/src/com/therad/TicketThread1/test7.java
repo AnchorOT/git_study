@@ -1,4 +1,4 @@
-package com.therad.TicketThread;
+package com.therad.TicketThread1;
 
 public class test7 {
     public static void main(String[] args) {

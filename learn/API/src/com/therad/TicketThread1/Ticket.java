@@ -1,4 +1,4 @@
-package com.therad.TicketThread;
+package com.therad.TicketThread1;
 
 public class Ticket implements Runnable{
     private int ticket= 100;
