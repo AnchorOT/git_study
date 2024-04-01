@@ -11,5 +11,6 @@ public class test9 {
 
         t1.start();
         t2.start();
+
     }
 }
