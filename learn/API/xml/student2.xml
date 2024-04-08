@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE students [
+        <!ELEMENT students (student)*>
+        <!ELEMENT student (name|age|info|message)*>
+        <!ATTLIST student
+                id CDATA #REQUIRED>
+        <!ELEMENT name (#PCDATA)>
+        <!ELEMENT age (#PCDATA)>
+        <!ELEMENT info (#PCDATA)>
+        <!ELEMENT message (#PCDATA)>
+        ]>
+<students>
+    <student id="1">
+        <name>alice</name>
+        <age>22</age>
+        <info>学生&lt;&gt;的信息</info>
+        <message><![CDATA[
+        <<<<内容>>>>]
+        ]]></message>
+    </student>
+    <student id="2">
+        <name>tom</name>
+        <age>21</age>
+    </student>
+</students>
