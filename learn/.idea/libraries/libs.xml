@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="libs">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/API/libs/log4j-1.2.17.jar!/" />
+      <root url="jar://$PROJECT_DIR$/API/libs/slf4j-api-1.7.30.jar!/" />
+      <root url="jar://$PROJECT_DIR$/API/libs/slf4j-log4j12-1.7.30.jar!/" />
+      <root url="file://$PROJECT_DIR$/API/libs" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/API/libs" recursive="false" />
+  </library>
+</component>

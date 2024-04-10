@@ -8,5 +8,8 @@
     <orderEntry type="jdk" jdkName="11" jdkType="JavaSDK" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="dom4j-1.6.1" level="project" />
+    <orderEntry type="library" name="junit-4.12" level="project" />
+    <orderEntry type="library" name="junit-4.9  (2)" level="project" />
+    <orderEntry type="library" name="libs" level="project" />
   </component>
 </module>

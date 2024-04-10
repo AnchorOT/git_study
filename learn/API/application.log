@@ -1,0 +1,7 @@
+2024-04-10 23:37:19 INFO  [com.log4j.log4jTest] - info
+2024-04-10 23:37:19 WARN  [com.log4j.log4jTest] - warn
+2024-04-10 23:37:19 ERROR [com.log4j.log4jTest] - error
+2024-04-10 23:37:59 DEBUG [com.log4j.log4jTest] - debug
+2024-04-10 23:37:59 INFO  [com.log4j.log4jTest] - info
+2024-04-10 23:37:59 WARN  [com.log4j.log4jTest] - warn
+2024-04-10 23:37:59 ERROR [com.log4j.log4jTest] - error
