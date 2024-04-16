@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>type属性演示</title>
+    <style>
+        body{
+            background-color: gray;
+        }
+    </style>
+</head>
+<body>
+<form action="#" method="get" autocomplete="on">
+    <label for="username">用户名：</label>
+    <input type="text" id="username" name="username" value="" placeholder="请输入用户名" required> <br>
+
+    <label for="password">密&nbsp;码：</label>
+    <input type="password" id="password" name="username" value="" placeholder="请输入密码" required><br>
+
+    <label for="email">邮&nbsp;箱：</label>
+    <input type="email" id="email" name="email" value="" placeholder="请输入邮箱" required><br>
+
+    <label for="gender">性&nbsp;别：</label>
+    <input type="radio" id="gender" name="gender" value="female">男
+    <input type="radio" name="gender"value="male">女 <br>
+
+    <label for="checkbox">checkbox：</label>
+    <input type="checkbox" id="checkbox" name="checkbox" value="0" checked>0
+    <input type="checkbox" name="checkbox"value="1">1
+    <input type="checkbox" name="checkbox"value="2">2 <br>
+
+    <label for="date">date：</label>
+    <input type="date" id="date" name="date" value=""  required> <br>
+
+    <label for="time">time：</label>
+    <input type="time" id="time" name="time" value=""  required> <br>
+
+    <label for="datetime">datetime：</label>
+    <input type="datetime-local" id="datetime" name="datetime" value=""  required> <br>
+
+    <label for="number">number：</label>
+    <input type="number" id="number" name="number" value="" min="0" max="120" required> <br>
+
+    <label for="range">range：</label>
+    <input type="range" id="range" name="range" value="" min="1" max="10"  step="1" required> <br>
+
+    <label for="search">search：</label>
+    <input type="search" id="search" name="search" value="" placeholder="可清除文本框" required> <br>
+
+    <label for="tel">tel：</label>
+    <input type="tel" id="tel" name="tel" value=""  required> <br>
+
+    <label for="url">url：</label>
+    <input type="url" id="url" name="url" value=""  required> <br>
+
+    <label for="file">file：</label>
+    <input type="file" id="file" name="file" value=""  required> <br>
+
+    <label for="hiddem">hidden：</label>
+    <input type="hidden" id="hiddem" name="hidden" value="11111"  required> <br>
+
+    <select name="city">
+        <option>-----city-----</option>
+        <optgroup label="直辖市">
+            <option>北京</option>
+            <option>上海</option>
+        </optgroup>
+        <optgroup label="省会">
+            <option>西安</option>
+            <option>杭州</option>
+        </optgroup>
+    </select>
+<br>
+
+    个人介绍：<textarea name="desc" cols="20" rows="5" ></textarea>
+
+    <button type="submit">提交</button>
+    <button type="reset">重置</button>
+
+
+
+</form>
+</body>
+</html>
